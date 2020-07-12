@@ -1,0 +1,98 @@
+
+h1 { font-size: 3rem;}
+h2 { font-size: 1.5rem}
+h3 { font-size: 1rem}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: rgba(88, 93, 106, 0.75);
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  
+}
+
+.btn:hover {
+  background: rgba(223, 230, 233, 0.75);
+  color: var(--primary-color);
+  transition: all 0.5s ease-in;
+}
+
+#navbar {
+  display: none;
+}
+
+/*#navbar ul li { display: block;}
+  #navbar ul li:hover ul {
+    width: 100%;
+    position: relative;
+  }*/
+
+/*#side-nav {
+  display: 
+
+}
+
+#navbar {
+  display: none;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background: rgba(223, 230, 233, 0.75);
+  opacity: 0.8;
+  color: #fff;
+  justify-content: centre;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+#navbar ul {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}*/
+
+
+
+#about .about-1 {
+  
+  grid-template-columns: 1fr;
+  
+}
+
+.about-2 {
+  
+  grid-template-columns: 1fr;
+  
+}
+
+
+
+.container-taekwondo {
+  
+  grid-template-columns: 1fr;
+  
+}
+
+.container-footer {
+  
+  grid-template-columns: 1fr;
+  height: 170px;
+  text-align: center;
+  
+}
+
+.container-footer img {
+  display: none;
+}
+
+.map {
+  
+  grid-template-columns: 1fr;
+  
+}

@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #5C80BC;
+  --secondary-color: #1c275e;
+  --light-color: #698DC3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--secondary-color);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+}
+
+  #navbar h1 span img {
+    size: 10%;
+  }
+
+  a {
+    text-decoration: none;
+  }
